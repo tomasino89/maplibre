@@ -34,7 +34,7 @@
 OpenStreetMap_Mapnik.addTo(map);
 	
   // load GeoJSON from an external file
-  $.getJSON("https://gist.githubusercontent.com/rostanetek/514574556d25c0985d03ab0d3ebb892d/raw/9af0ba4cd571e9701951d039f46db0a79b33e356/test.geojson",function(data){
+  $.getJSON("https://raw.githubusercontent.com/tomasino89/maplibre/refs/heads/main/mesta.geojson",function(data){
     // add GeoJSON layer to the map once the file is loaded
     L.geoJson(data).addTo(map);
 	
